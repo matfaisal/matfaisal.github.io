@@ -248,17 +248,17 @@
 }
 
 .induk {
-   padding: 20px 30px;
+   padding: 18px 15px;
    box-shadow: 0 3px 20px rgba(0, 0, 0, .3);
    border-radius: 10px;
    margin: 0 12px;
    height: 110px;
+   position: relative;
 }
 
 .action-title .btn {
    position: absolute;
-   right: 20px;
-   top: 36%;
+   margin-top: 3px;
    background-color: chocolate;
    box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
 }
@@ -273,10 +273,9 @@
 }
 
 .action-title h4 {
-   font-size: 14px;
+   font-size: 18px;
    font-family: 'Viga', sans-serif;
    color: chocolate;
-   line-height: 75px;
 }
 /* End Contact */
 
@@ -364,20 +363,43 @@
    
    /* End style portfolio */
 
+   .induk {
+      padding: 20px 30px;
+      box-shadow: 0 3px 20px rgba(0, 0, 0, .3);
+      border-radius: 10px;
+      margin: 0 12px;
+      height: 110px;
+      position: relative;
+   }
+   
+
+   /* contact section start */
    .action-title .btn {
       position: absolute;
-      right: 20px;
-      top: 36%;
+      top: 35%;
+      left: 80%;
       background-color: chocolate;
       box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
    }
-
+   
+   .action-title .btn:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, .4);
+   }
+   
+   .action-title .btn a {
+      text-decoration: none;
+      color: white;
+   }
+   
    .action-title h4 {
-      font-size: 20px;
+      font-size: 22px;
       font-family: 'Viga', sans-serif;
       color: chocolate;
+      text-align: left;
       line-height: 80px;
    }
+
+   /* section contact start */
 
    
 

@@ -115,7 +115,8 @@
 .card h2 {
    color: chocolate;
    font-family: 'Viga', sans-serif;
-   font-size: 24px;
+   font-size: 20px;
+   margin-top: 5px;
 }
 
 .card button {
