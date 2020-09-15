@@ -273,10 +273,10 @@
 }
 
 .action-title h4 {
-   font-size: 20px;
+   font-size: 14px;
    font-family: 'Viga', sans-serif;
    color: chocolate;
-   margin-top: 25px;
+   line-height: 75px;
 }
 /* End Contact */
 
@@ -288,7 +288,6 @@
 .follow {
    margin-bottom: 40px;
    font-family: 'Poppins', sans-serif;
-   font-weight: bold;
    color: chocolate;
    
 }
@@ -364,6 +363,21 @@
    /* Start style portfolio */
    
    /* End style portfolio */
+
+   .action-title .btn {
+      position: absolute;
+      right: 20px;
+      top: 36%;
+      background-color: chocolate;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
+   }
+
+   .action-title h4 {
+      font-size: 20px;
+      font-family: 'Viga', sans-serif;
+      color: chocolate;
+      line-height: 80px;
+   }
 
    
 
