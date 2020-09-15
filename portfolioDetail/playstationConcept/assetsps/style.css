@@ -1,0 +1,190 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.background {
+   background-image: url(../assetsps/img/background.jpg);
+   background-position: center;
+   background-size: cover;
+   z-index: -1;
+   height: 100vh;
+   background-blend-mode: color-burn;
+}
+
+.container {
+   padding-top: 75px;
+
+}
+
+.logo {
+   font-family: 'Viga', sans-serif;
+   font-size: 24px;
+   color: chocolate;
+   margin-bottom: 50px;
+}
+
+.ps .title {
+   color: chocolate;
+   font-family: 'Viga', sans-serif;
+   margin-top: 40px;
+}
+
+.ps p {
+   color: #adadad;
+}
+
+.ps button {
+   color: chocolate;
+   background-color: white;
+   border: 1px solid chocolate;
+   box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
+   margin-bottom: 20px;
+}
+
+.ps button:hover {
+   box-shadow: 0 3px 20px rgba(0, 0, 0, .4);
+}
+
+
+.banner img {
+   width: 100%;
+   box-shadow: 3px 3px 20px rgba(0, 0, 0, .8);
+   z-index: 2;
+   transition: all 300ms ease-out;
+
+}
+
+.banner img:hover {
+   transform: scale(1.09);
+   -webkit-transform: scale(1.09);
+   -moz-transform: scale(1.09);
+   -ms-transform: scale(1.09);
+   -o-transform: scale(1.09);
+}
+
+/* multiple demos */
+.title-detail h2 {
+   font-family: 'Viga', sans-serif;
+   color: chocolate;
+   margin-top: 100px;
+   margin-bottom: 30px;
+}
+
+.title-detail p {
+   font-family: 'poppins', sans-serif;
+   color: #adadad;
+   margin-bottom: 30px;
+}
+
+.image img{
+   width: 100%;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, .4);
+   transition: 300ms ease-in-out;
+}
+
+.image p {
+   text-align: center;
+   color: chocolate;
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+   margin-top: 14px;
+   margin-bottom: 20px;
+}
+
+.image img:hover {
+   transform: scale(1.04);
+   box-shadow: 0 3px 18px rgba(0, 0, 0, .6);
+}
+
+/* contact style */
+.contact {
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+.card {
+   background-color: white;
+   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+   border-radius: 10px;
+   height: 130px;
+   padding: 20px;
+   margin: 14px;
+}
+
+.card h2 {
+   color: chocolate;
+   font-family: 'Viga', sans-serif;
+   font-size: 24px;
+}
+
+.card button {
+   width: 120px;
+   color: chocolate;
+   background-color: white;
+   border: 1px solid chocolate;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+   margin-top: 8px;
+}
+
+.card button:hover{
+   box-shadow: 0 4px 16px rgba(0, 0, 0, .4);
+}
+
+/* footer style start */
+
+/* footer style end */
+#footer {
+   padding-bottom: 20px;
+}
+
+.follow {
+   margin-bottom: 40px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   color: chocolate;
+   
+}
+
+.social-media .icon i {
+   margin: 0 28px;
+   transform: scale(2);
+   color: chocolate;
+   transition: 500ms;
+}
+
+.social-media .icon .fab:hover {
+   text-shadow: 0 4px 15px rgba(0, 0, 0, .4);
+}
+
+/* copyright */
+.copyright {
+   text-align: center;
+   padding-top: 40px;
+   font-family: 'Poppins', sans-serif;
+   padding-bottom: 20px;
+}
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+   .ps .title {
+      color: chocolate;
+      font-family: 'Viga', sans-serif;
+      margin-top: 70px;
+   }
+   
+   .ps p {
+      color: #adadad;
+   }
+   
+   .ps button {
+      color: chocolate;
+      background-color: white;
+      border: 1px solid chocolate;
+      box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
+   }
+
+
+
+}

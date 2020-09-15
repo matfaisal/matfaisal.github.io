@@ -1,0 +1,370 @@
+/* navbar */
+.navbar-brand {
+   font-size: 32;
+   font-family: 'Viga', sans-serif;
+}
+
+.navbar a {
+   color: chocolate !important;
+}
+
+
+/* Start Jumbotron */
+.jumbotron {
+   background-image: url(../img/bg-jumbotron.jpg);
+   background-size: cover;
+   height: 600px;
+}
+
+.jumbotron .myself {
+   margin-top: 100px;
+   font-size: 18px;
+}
+
+.jumbotron .lead, .display-4 {
+   color: white;
+}
+
+.jumbotron .display-4{
+   font-weight: 300;
+   color: chocolate;
+   font-family: 'Viga', sans-serif;
+}
+
+.jumbotron .lead{
+   font-size: 18px;
+   font-family: 'Roboto', 'Poppins', sans-serif;
+   font-weight: normal;
+}
+
+.jumbotron .btn{
+   background-color: chocolate;
+   border-radius: 5px;
+   margin-top: 20px;
+   font-family: 'Viga', sans-serif;
+   transition: 500ms;
+   outline: none;
+}
+
+.jumbotron .btn a{
+   color: white;
+}
+
+.jumbotron .btn:hover{
+   border-radius: 5px;
+   margin-top: 20px;
+   box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.6);
+}
+
+.jumbotron .btn a:hover{
+   text-decoration: none;
+}
+
+/* End Jumbotron */
+
+/* Start About */
+.about {
+   background-color: white;
+   box-shadow: 0 3px 20px rgba(0, 0, 0, .5);
+   border-radius: 12px;
+   margin-top: -100px;
+   margin-bottom: 100px;
+}
+
+.about img  {
+   width: 200px;
+   margin-top: 20px;
+   margin-left: -10px;
+}
+
+.about h3 {
+   margin-top: 40px;
+   color: chocolate;
+   font-family: 'Viga', sans-serif;
+}
+
+.about p {
+   color: #adadad;
+   font-size: 16px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.about button {
+   color: chocolate;
+   background-color: white;
+   margin-top: 20px;
+   box-shadow: 0 1px 14px rgba(0, 0, 0, .2);
+   margin-right: 10px;
+   font-family: 'Viga', sans-serif;
+   font-weight: 100;
+   transition: 500ms;
+   margin-bottom: 25px;
+}
+
+.about button:hover {
+   box-shadow: 0 4px 20px rgba(0, 0, 0, .3);
+}
+/* End About */
+
+/* Start Services */
+
+#services {
+   background-color: #dfe6e9;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.title {
+   font-family: 'Viga', sans-serif;
+   text-align: center;
+}
+
+.title h4 {
+   color: chocolate;
+}
+
+.title h2 {
+   letter-spacing: 1px;
+   color: white;
+   margin-bottom: 50px;
+}
+
+.services-item {
+   padding: 25px 15px;
+   background-color: white;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+   margin: 10px 5px;
+   cursor: pointer;
+   box-sizing: border-box;
+   height: 230px;
+   transition: 500ms;
+}
+
+.services-item:hover {
+   box-shadow: 0 5px 25px rgba(0, 0, 0, .3);
+}
+
+
+.services-item .icon {
+   font-size: 40px;
+   color: chocolate;
+}
+
+.services-content h3 {
+   color: chocolate;
+   font-size: 20px;
+   margin-top: 10px;
+   font-family: 'Viga', sans-serif;
+}
+
+.services-content p {
+   color: #acacac;
+   font-size: 14px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 50;
+
+}
+/* End Services */
+
+/* Start Portfolio */
+#portfolio {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.title {
+   font-family: 'Viga', sans-serif;
+}
+.title h4 {
+   color: chocolate;
+}
+
+.title .mywork { /*h2*/
+   letter-spacing: 1px;
+   color: #acacac;
+   margin-bottom: 50px;
+}
+
+.control .btn-default {
+   margin: 0 5px 12px;
+   color: chocolate;
+   background-color: white;
+   box-shadow: 0 1px 14px rgba(0, 0, 0, .1);
+   font-family: 'Poppins', sans-serif;
+}
+
+.control .btn-default:hover{
+   box-shadow: 0 2px 18px rgba(0, 0, 0, .2);
+}
+
+.control .on {
+   color: white;
+   background-color: chocolate;
+}
+
+.portfolio-item {
+   margin-top: 20px;
+}
+
+.portfolio-item img {
+   width: 100%;
+   height: 100%;
+   border-radius: 5px;
+   cursor: pointer;
+   position: relative;
+   box-shadow: 0 2px 14px rgba(0, 0, 0, .3);
+}
+
+.portfolio-item img:hover {
+   box-shadow: 0 4px 20px rgba(0, 0, 0, .3);
+}
+
+.portfolio-item .name-project {
+   position: absolute;
+   bottom: 2px;
+   left:40px;
+}
+
+.name-project h5 {
+   font-family: 'Viga', sans-serif;
+   font-size: 20px;
+   margin-bottom: -2px;
+   color: chocolate;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+}
+
+.name-project p {
+   font-size: 14px;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+}
+
+/* End Portfolio */
+
+/* Start Conact */
+#contact {
+   padding-top: 100px;
+   padding-bottom: 100px
+}
+
+.induk {
+   padding: 20px 30px;
+   box-shadow: 0 3px 20px rgba(0, 0, 0, .3);
+   border-radius: 10px;
+   margin: 0 12px;
+   height: 110px;
+}
+
+.action-title .btn {
+   position: absolute;
+   right: 20px;
+   top: 36%;
+   background-color: chocolate;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, .4);
+}
+
+.action-title .btn:hover {
+   box-shadow: 0 4px 20px rgba(0, 0, 0, .4);
+}
+
+.action-title .btn a {
+   text-decoration: none;
+   color: white;
+}
+
+.action-title h4 {
+   font-size: 20px;
+   font-family: 'Viga', sans-serif;
+   color: chocolate;
+   margin-top: 25px;
+}
+/* End Contact */
+
+/* Section Footer Start */
+#footer {
+   padding-bottom: 20px;
+}
+
+.follow {
+   margin-bottom: 40px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   color: chocolate;
+   
+}
+
+.social-media .icon i {
+   margin: 0 28px;
+   transform: scale(2);
+   color: chocolate;
+   transition: 500ms;
+}
+
+.social-media .icon .fab:hover {
+   text-shadow: 0 4px 15px rgba(0, 0, 0, .4);
+}
+
+.copyright {
+   text-align: center;
+   padding-top: 40px;
+   font-family: 'Poppins', sans-serif;
+}
+
+/* Section Footer End */
+
+
+
+
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+   /* Start style navbar */
+   .nav-link {
+      text-transform: uppercase;
+      margin-right: 30px;
+      font-weight: 500;
+   }
+
+   .nav-link:hover::after {
+      content: '';
+      display: block;
+      color: chocolate !important;
+      border-bottom: 2px solid chocolate;
+      margin: auto;
+      padding-bottom: 3px;
+      margin-bottom: -5px;
+   }
+   /* End style navbar */
+
+   /* Start Jumbotron */
+   .jumbotron {
+      margin-top: -75px;
+   }
+
+   /* End Jumbotron */
+
+   /* Start style about me */
+
+   .about {
+      padding-right: 60px;
+   }
+   .about img  {
+      width: 300px;
+      margin-top: 20px;
+      margin-left: -10px;
+   }
+
+   .about .button .btn{
+      float: left;
+   }
+
+   /* End style about me */
+
+   /* Start style portfolio */
+   
+   /* End style portfolio */
+
+   
+
+}
