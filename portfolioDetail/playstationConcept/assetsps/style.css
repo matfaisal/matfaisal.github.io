@@ -34,7 +34,6 @@
 }
 
 .ps button {
-   color: chocolate;
    background-color: white;
    border: 1px solid chocolate;
    box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
@@ -43,6 +42,12 @@
 
 .ps button:hover {
    box-shadow: 0 3px 20px rgba(0, 0, 0, .4);
+}
+
+.ps .btn a {
+   text-decoration: none;
+   color: chocolate;
+   font-weight: 500;
 }
 
 
@@ -137,7 +142,7 @@
 .follow {
    margin-bottom: 40px;
    font-family: 'Poppins', sans-serif;
-   font-weight: bold;
+   font-weight: 600;
    color: chocolate;
    
 }
@@ -159,6 +164,8 @@
    padding-top: 40px;
    font-family: 'Poppins', sans-serif;
    padding-bottom: 20px;
+   font-size: 14px;
+   font-weight: 500;
 }
 
 /* DESKTOP VERSION */
@@ -179,5 +186,9 @@
       background-color: white;
       border: 1px solid chocolate;
       box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
+   }
+
+   .copyright {
+      font-size: 16px;
    }
 }

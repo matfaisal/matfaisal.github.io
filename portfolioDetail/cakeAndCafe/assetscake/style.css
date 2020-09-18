@@ -25,7 +25,7 @@
 }
 
 .resto p {
-   color: #aaddaa;
+   color: #adadad;
 }
 
 .resto button {
@@ -77,6 +77,11 @@
 .image img:hover {
    transform: scale(1.04);
    box-shadow: 0 3px 18px rgba(0, 0, 0, .6);
+}
+
+.text-detail p {
+   color: #adadad;
+   margin-top: 30px;
 }
 
 /* contact style */
@@ -138,4 +143,11 @@
    padding-top: 40px;
    font-family: 'Poppins', sans-serif;
    padding-bottom: 20px;
+   font-size: 14px;
+}
+
+@media (min-width: 992px) {
+   .copyright {
+      font-size: 16px;
+   }
 }
