@@ -28,7 +28,7 @@
    color: #adadad;
 }
 
-.resto button {
+.resto .btn {
    color: chocolate;
    background-color: white;
    border: 1px solid chocolate;
@@ -36,8 +36,13 @@
    margin-bottom: 20px;
 }
 
-.resto button:hover {
+.resto .btn:hover {
    box-shadow: 0 3px 20px rgba(0, 0, 0, .4);
+}
+
+.resto .btn a {
+   text-decoration: none;
+   color: chocolate;
 }
 
 .banner img {
